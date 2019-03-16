@@ -1,0 +1,22 @@
+{
+  "name": "testtask",
+  "version": "1.0.0",
+  "description": "Тестовое задание",
+  "main": "index.js",
+  "scripts": {
+    "dev": "browser-sync start --server 'public' --files 'public'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KkuznetsovAnton/TestTask.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KkuznetsovAnton/TestTask/issues"
+  },
+  "homepage": "https://github.com/KkuznetsovAnton/TestTask#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3"
+  }
+}
