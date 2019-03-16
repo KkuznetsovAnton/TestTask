@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/KkuznetsovAnton/TestTask#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.3"
+    "browser-sync": "^2.26.3",
+    "prettier": "^1.16.4"
   }
 }

@@ -1,103 +1,87 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Бронирование билетов</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-    <header class="page-header">    
-        <h1>Бронирование билетов</h1>
-        <span>Дата</span>
-        <div class="dataAndTimeSeance">
-            <div class="dataSeance">   
-                    <table>
-                            <tbody>
-                                   <tr> 
-                                       <td class="dataSeance"><a>15.03</a></td>
-                                       <td class="dataSeance"><a>16.03</a></td>
-                                       <td class="dataSeance"><a>17.03</a></td>
-                                       <td class="dataSeance"><a>18.03</a></td>
-                                       <td class="dataSeance"><a>19.03</a></td>
-                                       <td class="dataSeance"><a>20.03</a></td>
-                                   </tr>
-                            </tbody>
-                           </table>  
-
-            </div>
-            <span>Время</span>
-            <div class="timeSeance">
-                <table>
-                 <tbody>
-                        <tr> 
-                            <td class="date-time"><a>10:00</a></td>
-                            <td class="date-time"><a>12:00</a></td>
-                            <td class="date-time"><a>14:00</a></td>
-                            <td class="date-time"><a>16:00</a></td>
-                            <td class="date-time"><a>18:00</a></td>
-                            <td class="date-time"><a>20:00</a></td>
-                        </tr>
-                 </tbody>
-                </table>
-            </div>
-
-        </div>
+  <head>
+    <meta charset="utf-8" />
+    <title>Бронирование билетов</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <h1>Бронирование билетов</h1>
     </header>
-        <h3 class="info-film">Информация о фильме</h3>
-        <h3 class="name-film">Название фильма</h3>
-           
-        
-             <table class="place">
-         <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
-        </tr>  
-        <tr>
-            <td>7</td>
-            <td>8</td>
-            <td>9</td>
-            <td>10</td>
-            <td>11</td>
-            <td>12</td>
-        </tr>
-        <tr>
-            <td>13</td>
-            <td>14</td>
-            <td>15</td>
-            <td>16</td>
-            <td>17</td>
-            <td>18</td>
-        </tr>
-        <tr>
-            <td>19</td>
-            <td>20</td>
-            <td>21</td>
-            <td>22</td>
-            <td>23</td>
-            <td>24</td>
-        </tr>
-        <tr>
-            <td>25</td>
-            <td>26</td>
-            <td>27</td>
-            <td>28</td>
-            <td>29</td>
-            <td>30</td>
-        </tr>
-        <tr>
-            <td>31</td>
-            <td>32</td>
-            <td>33</td>
-            <td>34</td>
-            <td>35</td>
-            <td>36</td>
-        </tr>
+    
+    <h3 class="info-film">Информация о фильме</h3>
+    <div class="dataSeance">
+        <span>Дата</span>
+            <select id="dataSeance" name="dataSeance">
+              <option  disabled checked>День сеанса</option>
+            </select>
+          </div>
+    <p><input type="radio" value="Film-1" name="film">Film-1</input>
+    <input type="radio" value="Film-2" name="film">Film-2</input></p>
+    <div class="timeSeance">
+            <select id="timeSeance" name="timeSeance">
+              <option disabled>Время сеанса</option>
+              <option value="10:00">10:00</option>
+              <option value="12:00">12:00</option>
+              <option value="14:00">14:00</option>
+              <option value="16:00">16:00</option>
+              <option value="18:00">18:00</option>
+              <option value="20:00">20:00</option>
+            </select>
+          </div>
+    <table class="place">
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+      </tr>
+      <tr>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+      </tr>
+      <tr>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+      </tr>
     </table>
 
-    <a class="bron" href="#">Бронировать</a>
-    </body>
+    <a class="reservation" href="#">Бронировать</a>
+    <script src="index.js"></script>
+  </body>
 </html>
