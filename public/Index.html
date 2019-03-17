@@ -9,41 +9,48 @@
     <header class="page-header">
       <h1>Бронирование билетов</h1>
     </header>
-    
+
     <h3 class="info-film">Информация о фильме</h3>
-    <div class="date_Seance">
-        <span>Дата</span>
-            <select id="dateSeance" name="dateSeance">
-            </select>
-          </div>
-          <div class="film"> 
-            <span>Название фильма</span>
-          <select id="film"></select>
-        </div>
+    <div class="dateSeance">
+      <span>Дата</span>
+      <select class="dateSeance" id="dateSeance" name="dateSeance"> </select>
+    </div>
+    <div class="film">
+      <span>Название фильма</span>
+      <select class="film" id="film"></select>
+    </div>
     <div class="timeSeance">
-        <span>Время сеанса</span>
-            <select id="timeSeance" name="timeSeance">
-            </select>
-          </div>
-          <div class="places">
-            <div class="row1">
-                <span>Ряд 1</span>
-                <input type="checkbox" name="option1" value="place1">1</input>
-                <input type="checkbox" name="option2" value="place2">2</input>
-                <input type="checkbox" name="option3" value="place3">3</input>
-                <input type="checkbox" name="option4" value="place4">4</input>
-                <input type="checkbox" name="option5" value="place5">5</input>
-            </div>
-            <div class="row2">
-              <span>Ряд 2</span>
-                <input type="checkbox" name="option1" value="place1">1</input>
-                <input type="checkbox" name="option2" value="place2">2</input>
-                <input type="checkbox" name="option3" value="place3">3</input>
-                <input type="checkbox" name="option4" value="place4">4</input>
-                <input type="checkbox" name="option5" value="place5">5</input>
-            </div>
-          </div>
-        
+      <span>Время сеанса</span>
+      <select class="timeSeance" id="timeSeance" name="timeSeance"> </select>
+    </div>
+    <div class="places">
+      <div class="row1">
+        <span>Ряд 1</span>
+        <input type="checkbox" name="1" value="place1" id="1" />
+        <label for="1">1</label>
+        <input type="checkbox" name="2" value="place2" id="2" />
+        <label for="2">2</label>
+        <input type="checkbox" name="3" value="place3" id="3" />
+        <label for="3">3</label>
+        <input type="checkbox" name="4" value="place4" id="4" />
+        <label for="4">4</label>
+        <input type="checkbox" name="5" value="place5" id="5" />
+        <label for="5">5</label>
+      </div>
+      <div class="row2">
+        <span>Ряд 2</span>
+        <input type="checkbox" name="1" value="place1" id="6" />
+        <label for="6">1</label>
+        <input type="checkbox" name="2" value="place2" id="7" />
+        <label for="7">2</label>
+        <input type="checkbox" name="3" value="place3" id="8" />
+        <label for="8">3</label>
+        <input type="checkbox" name="4" value="place4" id="9" />
+        <label for="9">4</label>
+        <input type="checkbox" name="5" value="place5" id="10" />
+        <label for="10">5</label>
+      </div>
+    </div>
 
     <a class="reservation" href="#">Бронировать</a>
     <script src="index.js"></script>
