@@ -89,7 +89,7 @@ input[type="checkbox"]:checked + label::before {
 
 .film select {
   background: transparent;
-  width: 268px;
+  width: 150x;
   padding: 5px;
   font-size: 16px;
   border: 1px solid #ccc;
@@ -97,7 +97,7 @@ input[type="checkbox"]:checked + label::before {
 }
 .timeSeance select {
   background: transparent;
-  width: 268px;
+  width: 75x;
   padding: 5px;
   font-size: 16px;
   border: 1px solid #ccc;
